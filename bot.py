@@ -1,16 +1,17 @@
 from pyrogram import Client
 from config import *
 
-plugins = dict(root="app.modules")
+plugins = {"root": "app.modules"}
 
 app = Client(
-    "VampGuardX",
-    api_id=API_ID,
+    name="VampGuardX",
+    api_id=int(API_ID),
     api_hash=API_HASH,
     bot_token=BOT_TOKEN,
-    plugins=plugins
+    plugins=plugins,
+    workers=50
 )
 
-print("🛡️ VampGuard X Started Successfully")
+print("🛡️ VampGuard X Started Successfully ✅")
 
 app.run()
