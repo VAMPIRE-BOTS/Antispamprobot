@@ -1,55 +1,53 @@
 {
-  "name": "ANTI SPAM PRO BOT",
-  "description": "Advanced Telegram Protection Bot",
-  "logo": "https://i.ibb.co/Gf10dmKx/x.jpg",
-  "keywords": [
-    "telegram",
-    "protection",
-    "security",
-    "spam",
-    "guard",
-    "pyrogram"
-  ],
-  "website": "https://github.com/VAMPIRE-BOTS/Antispamprobot",
-  "repository": "https://github.com/VAMPIRE-BOTS/Antispamprobot",
-  "success_url": "https://t.me/VAMPIREUPDATES",
-  "stack": "container",
-  "env": {
-    "API_ID": {
-      "description": "Telegram API ID",
-      "required": true
-    },
-    "API_HASH": {
-      "description": "Telegram API HASH",
-      "required": true
-    },
-    "BOT_TOKEN": {
-      "description": "Telegram Bot Token",
-      "required": true
-    },
-    "OWNER_ID": {
-      "description": "Telegram User ID",
-      "required": true
-    },
-    "BOT_USERNAME": {
-      "description": "Bot Username",
-      "required": true
-    },
-    "MUST_JOIN": {
-      "description": "Force Subscribe Channel Username",
-      "required": true
-    },
-    "LOG_GROUP_ID": {
-      "description": "Bot Logs Group ID",
-      "required": true
-    },
-    "PHOTO_URL": {
-      "description": "Start Image URL",
-      "required": true
-    },
-    "MONGO_URL": {
-      "description": "MongoDB URL",
-      "required": true
-    }
-  }
+"name": "ANTI SPAM PRO BOT",
+"description": "Advanced Telegram Protection Bot",
+"logo": "https://i.ibb.co/Gf10dmKx/x.jpg",
+"keywords": [
+"telegram",
+"security",
+"guard",
+"protection",
+"spam"
+],
+"website": "https://github.com/VAMPIRE-BOTS/Antispamprobot",
+"repository": "https://github.com/VAMPIRE-BOTS/Antispamprobot",
+"success_url": "https://t.me/VAMPIREUPDATES",
+"env": {
+"API_ID": {
+"description": "Telegram API ID",
+"required": true
+},
+"API_HASH": {
+"description": "Telegram API HASH",
+"required": true
+},
+"BOT_TOKEN": {
+"description": "Telegram Bot Token",
+"required": true
+},
+"OWNER_ID": {
+"description": "Telegram User ID",
+"required": true
+},
+"BOT_USERNAME": {
+"description": "Bot Username",
+"required": true
+},
+"MUST_JOIN": {
+"description": "Force Subscribe Channel Username",
+"required": true
+},
+"LOG_GROUP_ID": {
+"description": "Bot Logs Group ID",
+"required": true
+},
+"PHOTO_URL": {
+"description": "Start Image URL",
+"required": true
+},
+"MONGO_URL": {
+"description": "MongoDB URL",
+"required": true
+}
+}
 }
