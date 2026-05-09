@@ -1,17 +1,19 @@
-API_ID = 12345678
+import os
 
-API_HASH = "YOUR_API_HASH"
+API_ID = int(os.getenv("API_ID"))
 
-BOT_TOKEN = "YOUR_BOT_TOKEN"
+API_HASH = os.getenv("API_HASH")
 
-OWNER_ID = 8628886006
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
-BOT_USERNAME = "VampGuardXBot"
+OWNER_ID = int(os.getenv("OWNER_ID"))
 
-MUST_JOIN = "VAMPIREUPDATES"
+BOT_USERNAME = os.getenv("BOT_USERNAME")
 
-LOG_GROUP_ID = -1001234567890
+MUST_JOIN = os.getenv("MUST_JOIN")
 
-PHOTO_URL = "https://i.ibb.co/Gf10dmKx/x.jpg"
+LOG_GROUP_ID = int(os.getenv("LOG_GROUP_ID"))
 
-MONGO_URL = "mongodb+srv://username:password@cluster.mongodb.net/?retryWrites=true&w=majority"
+PHOTO_URL = os.getenv("PHOTO_URL")
+
+MONGO_URL = os.getenv("MONGO_URL")
