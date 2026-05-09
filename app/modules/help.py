@@ -10,7 +10,7 @@ async def callbacks(client, query: CallbackQuery):
 
         await query.message.edit_caption(
             caption=(
-                "🛠 VampGuard X Help Menu\n\n"
+                "🛠 ANTI ABUSE PRO BOT X Help Menu\n\n"
 
                 "📌 Commands\n\n"
 
